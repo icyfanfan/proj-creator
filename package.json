@@ -1,14 +1,14 @@
 {
     "name": "proj-creator",
     "version": "1.0.0",
-    "description": "",
+    "description": "生成基础目录结构的cli工具，基于webpack4 vue",
     "bin": {
         "proj-creator": "bin/creator.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "icy",
     "license": "ISC",
     "dependencies": {
         "chalk": "^2.4.1",
