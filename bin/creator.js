@@ -43,7 +43,13 @@ program
         const options = cleanArgs(cmd);
 
         require('../lib/create')(name, options);
-    });
+    })
+program
+    .command( 'custom' )
+    .description('自定义配置webpack')
+    .action( () => {
+        require( '../lib/custom' )()
+    } )
 
 program.commands.forEach(c => c.on('--help', () => console.log()));
 
