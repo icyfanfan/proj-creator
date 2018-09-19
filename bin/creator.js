@@ -45,10 +45,12 @@ program
         require('../lib/create')(name, options);
     })
 program
-    .command( 'custom' )
+    .command( 'custom <app-name>' )
     .description('自定义配置webpack')
-    .action( () => {
-        require( '../lib/custom' )()
+    .action( ( appName , cmd ) => {
+        let cliPath = process.cwd() ,
+            rootPath = path.resolve( cliPath , appName )
+        require( '../lib/custom' )( rootPath )
     } )
 
 program.commands.forEach(c => c.on('--help', () => console.log()));
