@@ -18,7 +18,9 @@
         "chalk": "^2.4.1",
         "cmd-shim": "^2.0.2",
         "commander": "^2.16.0",
+        "cross-spawn": "^6.0.5",
         "deepmerge": "^2.1.1",
+        "dns": "^0.2.2",
         "download-git-repo": "^1.0.2",
         "fs-extra": "^6.0.1",
         "globby": "^8.0.1",
@@ -37,6 +39,7 @@
         "semver": "^5.5.0",
         "shortid": "^2.2.11",
         "slash": "^2.0.0",
+        "url": "^0.11.0",
         "validate-npm-package-name": "^3.0.0",
         "webpack-chain": "^4.11.0",
         "yaml-front-matter": "^3.4.1"
