@@ -22,3 +22,5 @@ proj-creator simple <app_name>
 proj-creator custom <app_name>
 ```
 ![image](https://github.com/icyfanfan/proj-creator/raw/master/examples/images/demo.gif)
+
+> custom暂不支持windows
